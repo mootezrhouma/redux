@@ -1,0 +1,41 @@
+.ADD {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0% 0% 0% 0%;
+    height: 300px;
+    border-radius: 5px;
+  }
+  .write{
+    color: black;
+    border-radius: 20px;
+  }
+  
+  input {
+    width: 80%;
+    border-radius: 50px;
+    padding: 15px;
+    height: 15px;
+    font-size: 22px;
+    font-weight: 800;
+    transition: all 0.15s ease;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+  }
+  button {
+    font-family: 'Bangers';
+    font-size: 25px;
+    font-weight: 500;
+    background-color:yellow;
+    margin-top: 20px;
+    border: none;
+    border-radius: 100px;
+    padding: 1%;
+    width: auto;
+  }
+  input:focus{
+    outline: none;
+  }
